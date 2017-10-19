@@ -11,7 +11,7 @@ To install the server, select the MySQL Server (32 or 64 bit based on what you h
 BASIC GIT OPERATIONS
 
 1. To clone the repository (pull down a local copy):
-	a. Open the Start Menu and type 'cmd' to enter a command prompt.
+	1. Open the Start Menu and type 'cmd' to enter a command prompt.
 	b. Navigate to a directory you want to store it.
 		1. Command prompt starts at C:\Users\<your_username_here>.
 		2. I usually create a directory just under this location, so like C:\Users\<username>\project
@@ -21,9 +21,9 @@ BASIC GIT OPERATIONS
 		b. The directory name argument is optional, it specifies a directory to clone the files to. I usually put something short and descriptive here, like 'pathfinder'.
 			1. This means my project will be stored at a path like C:\Users\<username>\project\pathfinder.
 2. To commit and push files (send local edits back to the repository for other people to see them)
-	a. Open a command prompt and navigate to the repository location (where you cloned it above).
-	b. To add files selectively, do 'git add <path to file here>' and specify the path to the file you want to add. Note that this path is relative, and this must be a file in the cloned folder.
-	c. To add all files, do 'git add .'
-	d. To commit these changes, do 'git commit -m "Message Here"' where the message is text describing what you are committing.
-	e. To send these files and edits back to the repository, do 'git push'.
+	1. Open a command prompt and navigate to the repository location (where you cloned it above).
+	2. To add files selectively, do 'git add <path to file here>' and specify the path to the file you want to add. Note that this path is relative, and this must be a file in the cloned folder.
+	3. To add all files, do 'git add .'
+	4. To commit these changes, do 'git commit -m "Message Here"' where the message is text describing what you are committing.
+	5. To send these files and edits back to the repository, do 'git push'.
 		1. If it complains about not finding the remote repository or having to specify, do 'git push origin <branchname>' where branchname should be master, unless you are working on a branch.
